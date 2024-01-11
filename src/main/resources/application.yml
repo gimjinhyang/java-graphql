@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: GraphQL Test
+  config:
+    name: application
+  main:
+    allow-bean-definition-overriding: true
+    lazy-initialization: false
+  profiles:
+    include:
+      - mysql
+      - graphql
+      - logging
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  # DevTools
+  devtools:
+    livereload:
+      enabled: true
+
+  # Jackson
+  jackson:
+    serialization:
+      indent-output: true
+
+  # Graphql
+  graphql:
+    schema:
+      printer:
+        enabled: true
+    graphiql:
+      enabled: true

@@ -1,0 +1,27 @@
+datasource:
+  primary:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: aaaa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    idle-timeout: 100000
+    minimum-idle: 1
+    maximum-pool-size: 1
+    max-life-timeout: 300000
+  secondary:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: aaaa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    idle-timeout: 120000
+    minimum-idle: 1
+    maximum-pool-size: 1
+    max-life-timeout: 600000
+    database-type: mysql
+    access-to-underlying-connection-allowed: true
+    sql-logging: false
+    sql-reporting: false
+    slow-query-threshold: 1000
+    query-timeout: 30000
+    query-formatting: true
+    hibernate-query-formatting: true
