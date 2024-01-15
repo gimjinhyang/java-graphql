@@ -1,0 +1,15 @@
+graphql:
+  playground:
+    settings:
+      schema:
+        polling:
+          enable: false
+      editor:
+        theme: light
+    enabled: true
+  servlet:
+    cors-enabled: true
+    cors:
+      allowed-origins: "*"
+      allowed-headers: "*"
+      allowed-methods: "*"

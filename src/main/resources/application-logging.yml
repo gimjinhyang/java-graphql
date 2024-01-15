@@ -1,0 +1,9 @@
+logging:
+  level:
+    org.springframework.cloud.aws: DEBUG
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+    org.springframework.transaction: DEBUG
+    org.hibernate.sql: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    org.jooq: debug
+    com.hellomarket: debug
