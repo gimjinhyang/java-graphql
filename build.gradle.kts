@@ -46,6 +46,10 @@ dependencies {
     implementation("com.graphql-java-kickstart:graphql-java-tools:13.0.3")
 
     testImplementation("com.graphql-java-kickstart:graphql-spring-boot-starter-test:15.0.0")
+    
+
+    implementation("gim:java-mysql-jooq:0.0.1-SNAPSHOT")
+
 
 }
 
